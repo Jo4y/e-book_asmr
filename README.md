@@ -26,23 +26,36 @@
 
 ## 🛠️ 技術實作 (Technical Requirements)
 本專案完美符合課程開發需求，包含：
+
 [x] 多頁面切換：使用 Navigator 進行頁面跳轉與重置。
+
 [x] 資料模型化：定義 AsmrItem 型別管理複雜的影音與文字資料。
+
 [x] 高效列表渲染：實作 ListView.builder 與 ListView.separated。
+
 [x] 網格佈局：使用 GridView.builder 達成兩兩並排的卡片設計。
+
 [x] 分頁導航：完整實作 DefaultTabController 與 TabBarView。
+
 [x] 點擊偵測：靈活運用 GestureDetector 與 InkWell 處理不同層級的點擊事件。
+
 [x] 狀態管理：使用 StatefulWidget 與 setState 精準控制影音播放狀態。
+
 [x] 原生優化：自訂專屬 App Icon 並優化不同頁面的系統狀態列 (StatusBar) 顏色。
 
 ## 📂 專案結構說明
 AsmrItem：自訂資料型別，儲存標題、分類、多種介紹文字、圖片路徑、影音路徑。
 
 WelcomePage：啟動動畫頁面。
+
 OverviewPage：全屏 Stack 導覽頁面。
+
 MainTabPage：分類 Tab 主頁面。
+
 CategoryListView：負責渲染各分類的 Grid 網格。
+
 DetailPage：細項介紹與影片播放頁面。
+
 InfoBoxTile：自訂 StatelessWidget 用於詳情頁列表。
 
 ## 📝 操作提示
